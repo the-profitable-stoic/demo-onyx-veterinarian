@@ -1,0 +1,552 @@
+{
+  "business": {
+    "name": "Onyx Veterinarian",
+    "phone": "555-vet-r93",
+    "category": "veterinarian",
+    "city": "Asheville",
+    "state": "NC"
+  },
+  "design": {
+    "preset": {
+      "id": "veterinarian-dark-premium",
+      "categoryGroup": "veterinarian",
+      "name": "Dark Premium",
+      "recipeFile": "veterinarian/dark-premium.astro",
+      "colors": {
+        "primary": "#34D399",
+        "primaryDark": "#2aa97a",
+        "primaryLight": "#aeedd6",
+        "secondary": "#2A2A2A",
+        "accent": "#52daa8",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "veterinarian/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Trusted Veterinary Care in Asheville",
+      "heroSubline": "Compassionate veterinary services for Asheville's pets. We understand the unique needs of mountain-living animals.",
+      "aboutTitle": "Our Asheville Veterinary Story",
+      "aboutText": [
+        "Founded in 2012, Onyx Veterinarian began as a small practice serving Downtown Asheville's pet owners. Our team grew along with the city, adapting to the needs of both urban pets and those in surrounding mountain communities.",
+        "We take pride in our approach that combines modern veterinary science with an understanding of Appalachian pet lifestyles. From Biltmore Village pups to farm cats in the valleys, we've seen it all.",
+        "Our commitment extends beyond exams - we're active in local animal rescues and participate in Asheville's annual Pet Pride Day."
+      ],
+      "valueProps": [
+        {
+          "title": "Mountain-Experienced",
+          "description": "We understand altitude-related health concerns for pets in the Blue Ridge region."
+        },
+        {
+          "title": "Preventive Focus",
+          "description": "Our seasonal health plans address Asheville's specific climate challenges."
+        },
+        {
+          "title": "Same-Day Emergencies",
+          "description": "When your pet eats those toxic mushrooms from the woods, we're here."
+        },
+        {
+          "title": "House Call Option",
+          "description": "Available for elderly pets in Asheville's historic walk-up apartments."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Pet's Visit Today",
+      "ctaSubline": "New patients receive a free nail trim with first exam"
+    },
+    "services": [
+      {
+        "slug": "canine-seasonal-wellness",
+        "name": "Canine Seasonal Wellness Plans",
+        "shortDescription": "Tailored preventive care for Asheville's distinct seasons.",
+        "description": "Asheville's dramatic seasonal changes require special attention for canine health. Our comprehensive wellness plans address:\n\nSpring pollen allergies common in the river valley areas where privet hedge thrives. We provide customized immunotherapy options for sensitive breeds.\n\nSummer heat protocols for hiking dogs, including paw pad protection from rocky trails and hydration strategies. We'll show you how to recognize early signs of heat exhaustion.\n\nFall parasite prevention focusing on ticks from the Blue Ridge Parkway woodlands. Our staff knows the most problematic areas based on elevation.\n\nWinter joint care for older dogs in colder neighborhoods like Montford, where historic homes can drafty. We offer cold-weather nutritional counseling.",
+        "process": [
+          "Step 1: Seasonal risk assessment based on your dog's breed, age, and neighborhood",
+          "Step 2: Custom vaccination protocol review",
+          "Step 3: Hands-on physical exam focusing on season-specific concerns",
+          "Step 4: Take-home care plan with local resources"
+        ],
+        "benefits": [
+          "Reduces emergency visits from preventable seasonal issues",
+          "Keeps your dog active through Asheville's variable weather",
+          "Peace of mind for outdoor adventures",
+          "Discounts on seasonal supplements"
+        ],
+        "faq": [
+          {
+            "question": "How does altitude affect my dog differently in winter?",
+            "answer": "Higher elevations around Asheville see more extreme temperature drops. We'll check your dog's cardiovascular adaptation and suggest exercise modifications."
+          },
+          {
+            "question": "My dog loves swimming in the French Broad River - any special concerns?",
+            "answer": "We recommend leptospirosis vaccination and post-swim ear cleaning protocols to prevent infections common in our watershed."
+          },
+          {
+            "question": "Are certain breeds less suited to Asheville's climate?",
+            "answer": "Brachycephalic (short-nosed) breeds may struggle with our summer humidity. We can create cooling strategies for your home's specific setup."
+          }
+        ]
+      },
+      {
+        "slug": "feline-arthritis-management",
+        "name": "Feline Arthritis Management",
+        "shortDescription": "Gentle care for Asheville's aging indoor cats.",
+        "description": "The temperature swings in Asheville's older homes can exacerbate feline arthritis. Our program focuses on:\n\nComfort assessments for homes with hardwoods common in Craftsman-style houses. We'll suggest affordable warming solutions that blend with your decor.\n\nPain management that considers Asheville's holistic medicine culture. We offer both traditional and complementary approaches with clear guidelines.\n\nMobility evaluations specific to multi-level historic homes. Many Asheville cats navigate steep staircases - we'll create safe pathways.\n\nWeight management plans using locally available foods. Asheville's farmer's markets offer great options we can incorporate.\n\nOur team has particular experience with the challenges of keeping arthritic cats comfortable in drafty older homes while respecting Asheville's historic preservation guidelines for modifications.",
+        "process": [
+          "Step 1: Detailed home environment questionnaire",
+          "Step 2: Gait analysis and joint mapping",
+          "Step 3: Customized treatment plan presentation",
+          "Step 4: Follow-up schedule based on seasonal changes"
+        ],
+        "benefits": [
+          "Reduces painful flare-ups during cold snaps",
+          "Maintains litter box access in multi-level homes",
+          "Non-invasive treatment options",
+          "Senior cat quality of life improvement"
+        ],
+        "faq": [
+          {
+            "question": "My 1920s house has original floors - what's best for arthritic cats?",
+            "answer": "We recommend strategic placement of rugs from local makers like Oriole Mill. Avoid slippery area rugs common in tourist shops."
+          },
+          {
+            "question": "Are heated beds safe in our humid summers?",
+            "answer": "We'll recommend Asheville-appropriate models with moisture-wicking covers and auto-shutoff features."
+          },
+          {
+            "question": "Can CBD from local shops help?",
+            "answer": "We've tested several WNC growers' products and can advise on reputable sources with consistent potency."
+          }
+        ]
+      },
+      {
+        "slug": "avian-exotic-care",
+        "name": "Avian & Exotic Pet Care",
+        "shortDescription": "Specialized care for Asheville's unique pets.",
+        "description": "From RAD artists' parrots to Biltmore Forest reptile enthusiasts, we serve Asheville's vibrant exotic pet community with:\n\nAltitude-adjusted care for birds in our mountain environment. Thin air affects some species differently - we monitor oxygen efficiency.\n\nHumidity control plans for reptiles in Asheville's variable climate. Many older homes struggle with consistent humidity levels.\n\nNutrition counseling using local produce. We'll help you navigate the farmer's markets for your pet's needs.\n\nBehavioral consultations for urban exotics dealing with street noise from downtown festivals.\n\nOur team includes members certified in avian medicine and herpetology who understand the challenges of keeping exotic pets in Asheville's mix of urban and rural environments. We can advise on everything from window safety in loft apartments to outdoor enclosure options for rural properties.",
+        "process": [
+          "Step 1: Species-specific environmental assessment",
+          "Step 2: Dietary analysis and local sourcing options",
+          "Step 3: Behavioral observation session",
+          "Step 4: Custom care calendar based on Asheville's seasonal events"
+        ],
+        "benefits": [
+          "Prevents common altitude-related health issues",
+          "Tailored to Asheville's unique climate",
+          "Connects you with local exotic pet communities",
+          "Emergency protocols for power outages common in mountain areas"
+        ],
+        "faq": [
+          {
+            "question": "How do I protect my bird from sudden cold snaps?",
+            "answer": "We recommend backup heating plans using Asheville-made ceramic heaters and show you how to create microclimates in your home."
+          },
+          {
+            "question": "Are there local plants toxic to my tortoise?",
+            "answer": "Yes - we provide a guide to WNC's dangerous flora and safe foraging alternatives."
+          },
+          {
+            "question": "My parrot gets stressed during drum circles - any solutions?",
+            "answer": "We've developed noise desensitization techniques that work with Asheville's event schedule."
+          }
+        ]
+      },
+      {
+        "slug": "senior-pet-hospice",
+        "name": "Senior Pet Hospice Care",
+        "shortDescription": "Compassionate end-of-life care for Asheville's aging pets.",
+        "description": "Supporting Asheville's pets through their golden years requires special understanding of our community:\n\nIn-home assessments for houses with multiple levels common in North Asheville. We'll create comfortable zones so your pet can stay mobile.\n\nPain management that works with your home's heating system - many historic homes have inconsistent temperatures.\n\nNutrition plans using ingredients from local co-ops and markets. We know which stores carry senior-friendly options.\n\nQuality of life evaluations that consider Asheville's active lifestyle. We'll help you adjust expectations while maintaining joy.\n\nOur hospice program includes connections to local pet loss support groups that meet at places like the Asheville Humane Society. We understand how deeply pets weave into our mountain community's fabric.",
+        "process": [
+          "Step 1: Comprehensive quality of life assessment",
+          "Step 2: Home environment walkthrough",
+          "Step 3: Care team creation with your regular vet",
+          "Step 4: Ongoing support schedule"
+        ],
+        "benefits": [
+          "Maintains dignity in familiar surroundings",
+          "Reduces stressful car trips on winding mountain roads",
+          "Connects you with local support resources",
+          "Honors the human-animal bond unique to our community"
+        ],
+        "faq": [
+          {
+            "question": "How do I know when it's time?",
+            "answer": "We use a modified quality of life scale adjusted for Asheville pets' active lifestyles and your personal values."
+          },
+          {
+            "question": "Can you help with aftercare options in our area?",
+            "answer": "We work exclusively with local, ethical providers who understand mountain burial regulations and cremation options."
+          },
+          {
+            "question": "My home has stairs - how will that work?",
+            "answer": "We'll design a main-level living space using Asheville's many thrift stores for affordable pet-friendly furniture."
+          }
+        ]
+      },
+      {
+        "slug": "farm-animal-ambulatory",
+        "name": "Farm Animal Ambulatory Service",
+        "shortDescription": "Mobile veterinary care for Asheville's small farms.",
+        "description": "Serving the small farms surrounding Asheville requires special expertise:\n\nGoat care specific to the browse available in our foothills. We'll test your pasture samples and suggest supplements.\n\nSheep hoof care for our rainy seasons. Muddy conditions in valleys require different trimming schedules.\n\nLlama and alpaca fiber health evaluations before shearing season. We work with local shearers for coordinated care.\n\nEmergency protocols for common Asheville-area toxins like rhododendron and mountain laurel.\n\nOur mobile unit is equipped to handle the winding roads of Buncombe County's rural areas. We schedule visits by geographic zone to minimize travel time between small farms in Leicester, Alexander, and other outlying communities.",
+        "process": [
+          "Step 1: Farm map and infrastructure review",
+          "Step 2: Herd health assessment",
+          "Step 3: Seasonal care calendar creation",
+          "Step 4: Emergency plan development"
+        ],
+        "benefits": [
+          "Reduces stress of transporting large animals",
+          "Tailored to WNC's specific agricultural challenges",
+          "Saves time for busy small farmers",
+          "Preventive focus reduces costly emergencies"
+        ],
+        "faq": [
+          {
+            "question": "How do I winterize my barn for Asheville's variable winters?",
+            "answer": "We provide specific recommendations based on your barn's orientation and elevation - solutions differ for Bent Creek versus Barnardsville."
+          },
+          {
+            "question": "What vaccinations are most important for our area?",
+            "answer": "We prioritize protection against diseases carried by our local wildlife populations."
+          },
+          {
+            "question": "Can you help with predator issues?",
+            "answer": "Yes - we'll assess your setup and suggest Asheville-appropriate deterrents that won't disturb neighbors."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Canine Seasonal Wellness Plan",
+        "text": "After my lab mix kept getting ear infections from swimming in the French Broad, Dr. Chen created a prevention plan using local honey in his regimen. Two summers infection-free! They really understand Asheville dogs.",
+        "date": "2025-06-12"
+      },
+      {
+        "name": "Marcus W.",
+        "rating": 5,
+        "service": "Feline Arthritis Management",
+        "text": "Our 14-year-old cat was struggling with our drafty Montford home's stairs. They suggested heated pads from a local maker and rearranged our furniture to create a comfortable single-level space. Huge improvement in her mobility.",
+        "date": "2025-03-28"
+      },
+      {
+        "name": "Lena T.",
+        "rating": 5,
+        "service": "Avian Care",
+        "text": "When my African Grey started plucking feathers during downtown construction noise, they developed a sound therapy routine using recordings from the Botanical Gardens. Their knowledge of Asheville-specific stressors is unmatched.",
+        "date": "2025-05-17"
+      },
+      {
+        "name": "James R.",
+        "rating": 5,
+        "service": "Farm Animal Ambulatory",
+        "text": "Saved our goat herd after they got into mountain laurel on our Leicester property. Their quick response and knowledge of local toxic plants prevented any losses. Now they do regular pasture walks with us.",
+        "date": "2025-02-03"
+      },
+      {
+        "name": "Natalie P.",
+        "rating": 5,
+        "service": "Senior Pet Hospice",
+        "text": "Helped us navigate our collie's final months in our uneven West Asheville yard. Created a peaceful passing at home with candles from the RAD. Still attend their monthly grief group at the humane society.",
+        "date": "2025-04-22"
+      },
+      {
+        "name": "Derrick M.",
+        "rating": 5,
+        "service": "Emergency Visit",
+        "text": "When my puppy ate mushrooms after a rainy hike on the Parkway, they stayed late to monitor him. Their knowledge of local fungi meant we avoided unnecessary treatments. Asheville pets are lucky to have them.",
+        "date": "2025-01-15"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Asheville Veterinarian | Onyx Veterinarian Services",
+        "description": "Compassionate veterinary care tailored to Asheville's unique mountain environment and pet lifestyle needs."
+      },
+      "about": {
+        "title": "About Our Asheville Veterinary Practice",
+        "description": "Learn how our locally-owned vet clinic serves Asheville's pets with mountain-specific expertise since 2012."
+      },
+      "services": {
+        "title": "Asheville-Specific Veterinary Services",
+        "description": "Specialized pet care addressing seasonal, altitude, and housing challenges unique to the Asheville area."
+      },
+      "contact": {
+        "title": "Contact Our Asheville Vet Clinic",
+        "description": "Schedule an appointment at our convenient Asheville location or request mobile farm visits."
+      },
+      "reviews": {
+        "title": "Asheville Pet Owner Testimonials",
+        "description": "Read verified reviews from local pet owners about our veterinary services in Buncombe County."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Asheville",
+        "slug": "asheville-nc",
+        "state": "NC",
+        "content": "Onyx Veterinarian proudly serves the pets and pet owners of Asheville, NC, with compassionate and expert veterinary care. Whether your furry friend needs a routine check-up, vaccinations, or specialized treatment, our team is here to help. Asheville's vibrant community of pet lovers deserves top-tier veterinary services, and we're committed to providing just that. From downtown to the surrounding neighborhoods, we're your trusted partner in pet health.",
+        "localContext": "Asheville is known for its pet-friendly atmosphere, with numerous parks, trails, and outdoor spaces perfect for dogs and their owners.",
+        "nearbyAreas": [
+          "Weaverville",
+          "Black Mountain",
+          "Fairview"
+        ]
+      },
+      {
+        "city": "Weaverville",
+        "slug": "weaverville-nc",
+        "state": "NC",
+        "content": "Onyx Veterinarian extends its services to the charming town of Weaverville, NC, offering comprehensive veterinary care for your beloved pets. Our team understands the close-knit community here and strives to build lasting relationships with both pets and their owners. Whether it's preventive care, dental services, or emergency treatment, we're here to ensure your pet's well-being.",
+        "localContext": "Weaverville's small-town charm and scenic beauty make it a wonderful place for pets and their families to thrive.",
+        "nearbyAreas": [
+          "Asheville",
+          "Mars Hill",
+          "Leicester"
+        ]
+      },
+      {
+        "city": "Black Mountain",
+        "slug": "black-mountain-nc",
+        "state": "NC",
+        "content": "Black Mountain, NC, is a special place for pets and their owners, and Onyx Veterinarian is honored to serve this community. Our veterinary services cater to all your pet's needs, from wellness exams to surgical care. The natural beauty of the area provides plenty of opportunities for outdoor adventures with your pets, and we're here to keep them healthy every step of the way.",
+        "localContext": "Black Mountain's mountainous terrain and outdoor lifestyle make it a haven for active pets and their owners.",
+        "nearbyAreas": [
+          "Asheville",
+          "Montreat",
+          "Swannanoa"
+        ]
+      },
+      {
+        "city": "Fairview",
+        "slug": "fairview-nc",
+        "state": "NC",
+        "content": "Fairview, NC, is home to many pet lovers, and Onyx Veterinarian is proud to offer top-quality veterinary care in this serene community. Our services include everything from routine vaccinations to advanced diagnostics, ensuring your pet receives the best possible care. The peaceful, rural setting of Fairview is ideal for pets who love open spaces and fresh air.",
+        "localContext": "Fairview's rolling hills and farmland provide a picturesque backdrop for pets and their families.",
+        "nearbyAreas": [
+          "Asheville",
+          "Swannanoa",
+          "Hendersonville"
+        ]
+      },
+      {
+        "city": "Hendersonville",
+        "slug": "hendersonville-nc",
+        "state": "NC",
+        "content": "Onyx Veterinarian is delighted to serve the pets of Hendersonville, NC, with compassionate and professional veterinary care. Our team is dedicated to keeping your pets healthy and happy, offering services such as preventive care, dental cleanings, and nutritional counseling. Hendersonville's vibrant downtown and surrounding natural beauty make it a fantastic place for pets and their owners.",
+        "localContext": "Hendersonville's apple orchards and hiking trails offer endless opportunities for pet-friendly outings.",
+        "nearbyAreas": [
+          "Flat Rock",
+          "Mills River",
+          "Fairview"
+        ]
+      },
+      {
+        "city": "Mills River",
+        "slug": "mills-river-nc",
+        "state": "NC",
+        "content": "Mills River, NC, is a community that values its pets, and Onyx Veterinarian is here to provide exceptional veterinary care. From puppies to senior dogs, cats, and other small animals, we offer a full range of services to meet their needs. The lush landscapes and riverside trails of Mills River are perfect for pets who love to explore.",
+        "localContext": "Mills River's agricultural roots and outdoor recreation make it a great place for pets to enjoy an active lifestyle.",
+        "nearbyAreas": [
+          "Hendersonville",
+          "Fletcher",
+          "Asheville"
+        ]
+      },
+      {
+        "city": "Fletcher",
+        "slug": "fletcher-nc",
+        "state": "NC",
+        "content": "Fletcher, NC, is a wonderful place for pets, and Onyx Veterinarian is proud to serve this growing community. Our veterinary team provides personalized care tailored to your pet's unique needs, including wellness exams, surgery, and behavioral consultations. Fletcher's mix of suburban comfort and natural beauty creates an ideal environment for pets and their families.",
+        "localContext": "Fletcher's proximity to the Blue Ridge Mountains offers pets and owners easy access to outdoor adventures.",
+        "nearbyAreas": [
+          "Mills River",
+          "Hendersonville",
+          "Arden"
+        ]
+      },
+      {
+        "city": "Arden",
+        "slug": "arden-nc",
+        "state": "NC",
+        "content": "Onyx Veterinarian is committed to serving the pets of Arden, NC, with high-quality veterinary care. Whether your pet needs a routine check-up or specialized treatment, our team is here to help. Arden's blend of residential neighborhoods and green spaces makes it a great place for pets to live and play.",
+        "localContext": "Arden's convenient location near Asheville and Hendersonville provides pet owners with easy access to veterinary care and outdoor activities.",
+        "nearbyAreas": [
+          "Fletcher",
+          "Skyland",
+          "Asheville"
+        ]
+      },
+      {
+        "city": "Leicester",
+        "slug": "leicester-nc",
+        "state": "NC",
+        "content": "Leicester, NC, is a close-knit community where pets are family, and Onyx Veterinarian is honored to provide veterinary services here. Our team offers everything from preventive care to emergency services, ensuring your pet stays healthy and happy. Leicester's rural charm and open spaces are perfect for pets who love the outdoors.",
+        "localContext": "Leicester's country setting offers pets plenty of room to roam and explore.",
+        "nearbyAreas": [
+          "Asheville",
+          "Candler",
+          "Weaverville"
+        ]
+      },
+      {
+        "city": "Candler",
+        "slug": "candler-nc",
+        "state": "NC",
+        "content": "Candler, NC, is a pet-friendly community, and Onyx Veterinarian is proud to serve its furry residents. Our veterinary services include wellness exams, vaccinations, and surgical care, all delivered with compassion and expertise. Candler's mix of rural and suburban living provides a great environment for pets and their families.",
+        "localContext": "Candler's proximity to the Pisgah National Forest makes it a prime location for outdoor-loving pets.",
+        "nearbyAreas": [
+          "Asheville",
+          "Leicester",
+          "Enka"
+        ]
+      },
+      {
+        "city": "Swannanoa",
+        "slug": "swannanoa-nc",
+        "state": "NC",
+        "content": "Swannanoa, NC, is a beautiful place for pets, and Onyx Veterinarian is excited to offer veterinary care in this scenic area. Our team provides comprehensive services, from routine check-ups to advanced treatments, to keep your pets in top shape. Swannanoa's mountain views and peaceful atmosphere create a perfect setting for pets to thrive.",
+        "localContext": "Swannanoa's location along the Swannanoa River offers pets and owners plenty of opportunities for outdoor fun.",
+        "nearbyAreas": [
+          "Black Mountain",
+          "Asheville",
+          "Fairview"
+        ]
+      },
+      {
+        "city": "Mars Hill",
+        "slug": "mars-hill-nc",
+        "state": "NC",
+        "content": "Mars Hill, NC, is a welcoming community for pets, and Onyx Veterinarian is thrilled to serve its animal companions. Our veterinary services include preventive care, diagnostics, and treatment for a variety of conditions. Mars Hill's small-town charm and natural surroundings make it a delightful place for pets and their families.",
+        "localContext": "Mars Hill's college-town vibe and scenic beauty provide a unique backdrop for pet ownership.",
+        "nearbyAreas": [
+          "Weaverville",
+          "Asheville",
+          "Burnsville"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "canine-seasonal-wellness": "/images/service-canine-seasonal-wellness.webp",
+      "feline-arthritis-management": "/images/service-feline-arthritis-management.webp",
+      "avian-exotic-care": "/images/service-avian-exotic-care.webp",
+      "senior-pet-hospice": "/images/service-senior-pet-hospice.webp",
+      "farm-animal-ambulatory": "/images/service-farm-animal-ambulatory.webp"
+    },
+    "servicesResponsive": {
+      "canine-seasonal-wellness": {
+        "src": "/images/service-canine-seasonal-wellness.webp",
+        "srcset": "/images/service-canine-seasonal-wellness-400w.webp 400w, /images/service-canine-seasonal-wellness-800w.webp 800w, /images/service-canine-seasonal-wellness-1200w.webp 1200w, /images/service-canine-seasonal-wellness.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "feline-arthritis-management": {
+        "src": "/images/service-feline-arthritis-management.webp",
+        "srcset": "/images/service-feline-arthritis-management-400w.webp 400w, /images/service-feline-arthritis-management-800w.webp 800w, /images/service-feline-arthritis-management-1200w.webp 1200w, /images/service-feline-arthritis-management.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "avian-exotic-care": {
+        "src": "/images/service-avian-exotic-care.webp",
+        "srcset": "/images/service-avian-exotic-care-400w.webp 400w, /images/service-avian-exotic-care-800w.webp 800w, /images/service-avian-exotic-care-1200w.webp 1200w, /images/service-avian-exotic-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "senior-pet-hospice": {
+        "src": "/images/service-senior-pet-hospice.webp",
+        "srcset": "/images/service-senior-pet-hospice-400w.webp 400w, /images/service-senior-pet-hospice-800w.webp 800w, /images/service-senior-pet-hospice-1200w.webp 1200w, /images/service-senior-pet-hospice.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "farm-animal-ambulatory": {
+        "src": "/images/service-farm-animal-ambulatory.webp",
+        "srcset": "/images/service-farm-animal-ambulatory-400w.webp 400w, /images/service-farm-animal-ambulatory-800w.webp 800w, /images/service-farm-animal-ambulatory-1200w.webp 1200w, /images/service-farm-animal-ambulatory.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
